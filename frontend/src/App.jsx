@@ -15,7 +15,7 @@ export default function App() {
         <Route path="/selamatulangtahunbapak" element={<Bapak />} />
         <Route path={`/edunas`} element={<Edunas />} />
         <Route path={`/dash`} element={<Dash />} />
-        <Route path={`/chatapp`} element={<ChatKelas />} />
+        {/* <Route path={`/chatapp`} element={<ChatKelas />} /> */}
 
         {/* <Route path="/dashboard" element={<Dashboard />} /> */}
       </Routes>

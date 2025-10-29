@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 app.use(
   cors({
-    origin: "http://10.55.29.98:5173",
+    origin: "https://afrzlelah.github.io/afrzlelah.io/",
     methods: ["GET", "POST"],
   })
 );
@@ -36,7 +36,7 @@ const connectedUsers = new Map();
 // SOCKET.IO SETUP
 const io = new Server(server, {
   cors: {
-    origin: "http://10.55.29.98:5173",
+    origin: "https://afrzlelah.github.io/afrzlelah.io/",
     methods: ["GET", "POST"],
   },
 });

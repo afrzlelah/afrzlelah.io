@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://10.55.29.98:3001");
+const socket = io(
+  "https://nodejs-serverless-function-express-gray-nine-92.vercel.app/"
+);
 
 export default function ChatKelas() {
   const [room, setRoom] = useState("");
