@@ -1,0 +1,21 @@
+/* Gaya Glassmorphism Kustom */
+.glass-card {
+  /* Warna latar belakang buram: white dengan transparansi 0.15 */
+  background-color: rgba(255, 255, 255, 0.15);
+  /* Efek buram yang mirip dengan di gambar */
+  backdrop-filter: blur(10px);
+  /* Bayangan halus */
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  /* Border radius agar sudut melengkung */
+  border-radius: 10px;
+  /* Border tipis transparan (opsional, untuk menambah efek) */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Latar Belakang Gradasi Penuh */
+.gradient-background {
+  /* Mirip dengan warna di gambar: biru tua ke oranye/merah */
+  background: linear-gradient(135deg, #0f172a 0%, #dc2626 100%);
+  /* Menggunakan dua gradasi dengan 'mix-blend-mode: hard-light;' untuk efek warna yang lebih kaya seperti di gambar */
+  /* Anda bisa bereksperimen dengan warna #004d7a (biru) dan #cc5500 (oranye) */
+}
